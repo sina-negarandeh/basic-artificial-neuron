@@ -1,0 +1,13 @@
+ISim log file
+Running: F:\amin\CAD99_810197464_810197640_PRJ1\CAD99_810197464_810197640_PRJ1\test_bench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/test_bench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/datapath.v" Line 32.  For instance datapath_0/Adder16_0/, width 21 of formal port b is not equal to width 18 of actual signal accumulator_out.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Expected output:         170, Actual output:    170

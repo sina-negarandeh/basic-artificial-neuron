@@ -1,0 +1,40 @@
+Running: F:\xlnx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/test_bench_isim_beh.exe -prj F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/test_bench_beh.prj work.test_bench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/ipcore_dir/Multiplier8_2.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/RegisterM.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/Register8.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/Multipler8_1.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/Adder16.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/ActivationFunction.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/datapath.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/Controller.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/Neuron.v" into library work
+Analyzing Verilog file "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/test_bench.v" into library work
+Analyzing Verilog file "F:/xlnx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "F:/xlnx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:189 - "F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/datapath.v" Line 33: Size mismatch in connection of port <b>. Formal port size is 21-bit while actual signal size is 18-bit.
+Completed static elaboration
+Compiling module Register8
+Compiling module DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module GND
+Compiling module VCC
+Compiling module Multiplier8_2
+Compiling module Multipler8_1
+Compiling module Adder16(M=18)
+Compiling module RegisterM(M=18)
+Compiling module ActivationFunction(M=18)
+Compiling module datapath(M=18)
+Compiling module Controller(N=4)
+Compiling module Neuron(M=18,N=4)
+Compiling module test_bench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable F:/amin/CAD99_810197464_810197640_PRJ1/CAD99_810197464_810197640_PRJ1/test_bench_isim_beh.exe
+Fuse Memory Usage: 35184 KB
+Fuse CPU Usage: 530 ms
